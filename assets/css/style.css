@@ -194,6 +194,7 @@ main {
 .animation-card {
   position: absolute;
   top: 0px;
+  background-color: #E8E8E8;
 }
 
 .gray-box,
@@ -222,12 +223,18 @@ main {
 .card-image-box figure img { border-radius: 50%; }
 
 .figure-box,
-.gray-box {
+.gray-box,.round-box {
   position: relative;
   animation-name: first;
   animation-duration: 2s;
   animation-fill-mode: forwards;
   animation-iteration-count: infinite;
+}
+
+.round-box {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
 
 @keyframes first {
