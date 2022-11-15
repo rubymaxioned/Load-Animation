@@ -227,21 +227,21 @@ main {
   animation-name: first;
   animation-duration: 2s;
   animation-fill-mode: forwards;
-  animation-iteration-count: 1;
+  animation-iteration-count: infinite;
 }
 
 @keyframes first {
   0% {
-    background: linear-gradient(to right, #fff, #bbb, #fff);
+    background: linear-gradient(to right, #fff, #E8E8E8, #fff);
   }
   50% {
-    background: linear-gradient(to right,#bbb, #fff, #bbb);
+    background: linear-gradient(to right,#E8E8E8, #fff, #E8E8E8);
   }
   75% {
-    background: linear-gradient(to right,#fff, #bbb, #fff);
+    background: linear-gradient(to right,#fff, #E8E8E8, #fff);
   }
   100% {
-    background: linear-gradient(to right,#fff, #bbb, #fff);
+    background: linear-gradient(to right,#fff, #E8E8E8, #fff);
   }
 }
  /* .card {
