@@ -175,7 +175,7 @@ main {
 
 .animation-card {
   min-width: 350px;
-  height: 320px;
+  /* height: 320px; */
 }
 
 .figure-box {
@@ -226,7 +226,7 @@ main {
 .gray-box,.round-box {
   position: relative;
   animation-name: first;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-iteration-count: infinite;
 }
@@ -238,17 +238,18 @@ main {
 }
 
 @keyframes first {
+  
   0% {
-    background: linear-gradient(to right, #fff, #E8E8E8, #fff);
+    background: linear-gradient(to right, #f3f3f1, #fff, #fff);
   }
   50% {
-    background: linear-gradient(to right,#E8E8E8, #fff, #E8E8E8);
+    background: linear-gradient(to right, #fff, #f3f3f1, #fff, #fff);
   }
   75% {
-    background: linear-gradient(to right,#fff, #E8E8E8, #fff);
+    background: linear-gradient(to left, #fff, #f3f3f1, #fff);
   }
   100% {
-    background: linear-gradient(to right,#fff, #E8E8E8, #fff);
+    background: linear-gradient(to right, #fff, #fff, #fff, #f3f3f1);
   }
 }
 
