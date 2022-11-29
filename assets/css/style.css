@@ -173,10 +173,7 @@ main {
   justify-content: center;
 }
 
-.animation-card {
-  min-width: 350px;
-  /* height: 320px; */
-}
+.animation-card { min-width: 350px; }
 
 .figure-box {
   min-width: 350px;
